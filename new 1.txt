@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Podcasts de Français</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .podcast {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 600px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mes Podcasts de Français</h1>
+
+    <div class="podcast">
+        <h2>Podcast 1 – Titre du podcast</h2>
+        <audio controls>
+            <source src="URL_DU_PODCAST_1" type="audio/mpeg">
+            Votre navigateur ne supporte pas la lecture audio.
+        </audio>
+    </div>
+
+    <div class="podcast">
+        <h2>Podcast 2 – Titre du podcast</h2>
+        <audio controls>
+            <source src="URL_DU_PODCAST_2" type="audio/mpeg">
+            Votre navigateur ne supporte pas la lecture audio.
+        </audio>
+    </div>
+
+    <div class="podcast">
+        <h2>Podcast 3 – Titre du podcast</h2>
+        <audio controls>
+            <source src="URL_DU_PODCAST_3" type="audio/mpeg">
+            Votre navigateur ne supporte pas la lecture audio.
+        </audio>
+    </div>
+
+</body>
+</html>
